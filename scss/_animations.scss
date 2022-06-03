@@ -1,0 +1,63 @@
+@keyframes fastCart {
+	from {
+		margin-left: -1000px;
+	}
+	to {
+		margin-left: 0;
+	}
+}
+
+@keyframes focus-in-expand-fwd {
+	0% {
+		letter-spacing: -0.5em;
+		-webkit-transform: translateZ(-800px);
+		transform: translateZ(-800px);
+		-webkit-filter: blur(12px);
+		filter: blur(12px);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+		-webkit-filter: blur(0);
+		filter: blur(0);
+		opacity: 1;
+	}
+}
+@keyframes cartRight {
+	from {
+		margin-left: -100px;
+	}
+	to {
+		margin-left: 2500px;
+	}
+}
+@keyframes rotateCart {
+	from {
+		transform: rotateY(0);
+	}
+	to {
+		transform: rotateY(360deg);
+	}
+}
+@keyframes drivtingCart {
+	0% {
+		margin-left: -50px;
+	}
+	25% {
+		margin-left: 500px;
+		margin-top: 200px;
+	}
+	50% {
+		margin-left: 1000px;
+		margin-top: 0;
+	}
+	75% {
+		margin-left: 1600px;
+		margin-top: 200px;
+	}
+	100% {
+		margin-left: 2500px;
+		margin-top: 0;
+	}
+}
